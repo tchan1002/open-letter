@@ -2,7 +2,11 @@
   a {
     color: green;
   }
-
+  
+  a:hover {
+    color: black;
+  }
+  
   .main {
     display: flex;
     margin: auto;
@@ -33,6 +37,15 @@
     font-size: 5vh;
     font-weight: bold;
     margin: 0vh 0vh;
+    transition: all 1s
+  }
+  
+  .title:hover {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0vh 0vh;
+    box-shadow: 2vh 2vh 0vh 0vh green;
+    border: .2vh solid black
   }
 
   .subtitle {
@@ -40,6 +53,7 @@
     font-weight: bold;
     margin: 2vh 0vh;
   }
+
 
   .paragraph {
     font-size: 2vh;
