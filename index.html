@@ -7,6 +7,7 @@
     color: black;
   }
 
+
   .flex {
     display: flex;
   }
@@ -14,58 +15,58 @@
   .navbar {
     font-family: arial;
     font-size: 2vh;
-    width: 20vh;
-    margin: 15vh 0vh 5vh auto;
-    padding: 0vh 0vh 0vh 5vh;
+    width: 20vw;
+    margin: 15vh 0vw 5vh auto;
+    padding: 0vh 0vw 0vh 5vw;
   }
 
   .text {
     font-family: arial;
-    margin: 10vh auto 5vh 5vh;
-    padding: 0vh 5vh 0vh 0vh;
-    width: 60vh;
+    margin: 10vh auto 5vh 5vw;
+    padding: 0vh 5vw 0vh 0vw;
+    width: 60vw;
 
   }
 
   .chunk {
     font-size: 2vh;
-    margin: 6vh 0vh 6vh 0vh;
+    margin: 6vh 0vw 6vh 0vw;
   }
 
   .title {
     font-size: 5vh;
     font-weight: bold;
-    margin: 0vh 0vh;
+    margin: 0vw 0vw;
     transition: all 1s
   }
 
   .title:hover {
     font-size: 5vh;
     font-weight: bold;
-    margin: 0vh 0vh;
-    box-shadow: 2vh 2vh 0vh 0vh black;
+    margin: 0vh 0vw;
+    box-shadow: 2vh 2vw 0vh 0vw black;
     border: .2vh solid black
   }
 
   .subtitle {
     font-size: 2.5vh;
     font-weight: bold;
-    margin: 2vh 0vh;
+    margin: 2vh 0vw;
   }
 
 
   .paragraph {
     font-size: 2vh;
-    margin: 0vh 0vh 2vh 0vh;
+    margin: 0vh 0vw 2vh 0vw;
   }
 
   .hole {
     background-color: black;
-    width: 6vh;
+    width: 6vw;
     height: 6vh;
     border-radius: 100%;
     position: fixed;
-    right: 2vh;
+    right: 2vw;
     top: 2vh;
     z-index: 9999;
     transition: all 2s
@@ -76,11 +77,61 @@
     height: 98vh;
     border-radius: 2%;
   }
+
+  .overlay {
+    font-family: arial;
+    font-size: 4vh;
+    z-index: 9000;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 15vh;
+    left: 2vw;
+  }
+
+  .overlay li {
+    list-style-type: none;
+  }
+
+  .overlay a {
+    text-decoration: none;
+    color: black;
+  }
+  
+   .overlay a:hover {
+    color: green;
+  }
+  
 </style>
 
 <body>
 
   <div class="hole">
+  </div>
+
+  <div class="overlay">
+
+    <marquee>
+      <ul>
+
+        <li> <a href="https://red-atagi.github.io/letter-to-the-internet/" target="_blank">Red </a></li>
+        <li><a href="https://bbroscius.github.io/" target="_blank"> Bernadette </a></li>
+        <li><a href="https://dianachu0209.github.io/letter-to-internet/" target="_blank">Diana</a></li>
+        <li><a href="https://progamer-chef.github.io/DI-1/" target="_blank">Natalyah</a></li>
+        <li><a href="https://thegoatannie.github.io/css_letter/" target="_blank">Annie</a></li>
+        <li><a href="https://shfessuh.github.io/internet_letter/" target="_blank">Sana</a></li>
+        <li><a href="https://sanaajade.github.io/DearInternet_Sanaa/" target="_blank">Sanaa</a></li>
+        <li><a href="https://ronthekiehn.github.io/internet-letter/" target="_blank">Ron</a></li>
+        <li><a href="https://alex-malm.github.io/letter-to-the-internet/" target="_blank">Alex</a></li>
+        <li> <a href="https://oaobielodan.github.io/my-open-letter/" target="_blank"> Lola </a> </li>
+        <li><a href="https://oluwalonimi2004.github.io/Dearest-Internet/" target="_blank">Lonimi</a></li>
+        <li><a href="https://manuelapinheiro.github.io/letter_to_the_internet_part1/" target="_blank">Manuela</a></li>
+        <li><a href="https://tigo-poncedeleon.github.io/an-open-letter-to-the-internet/" target="_blank">Tigo</a></li>
+        <li><a href="https://yruann.github.io/letter-to-internet/" target="_blank">Ying</a></li>
+        <li><a href="https://abigailstarr.github.io/internet-letter/" target="_blank">Abby</a></li>
+      </ul>
+    </marquee>
+
   </div>
 
   <div class="flex">
@@ -102,23 +153,22 @@
         <a href="https://tchan0.substack.com/" target="_blank"> Substack </a>
       </div>
 
-        <div>
+      <div>
         .life
       </div>
 
       <div>
         <a href="https://tchan1002.github.io/open-letter"> .splurge </a>
       </div>
-       <div>
+      <div>
         <a href="https://tchan1002.github.io/train" target="_self"> .train </a>
       </div>
-        <div>
+      <div>
         <a href="https://tchan1002.github.io/prog" target="_self"> .prog </a>
       </div>
-       <div>
+      <div>
         <a href="https://tchan1002.github.io/intro"> .home </a>
       </div>
-
 
     </div>
 
@@ -138,8 +188,8 @@
         </ul>
         He is often unsuccessful:
       </div>
- 
- 
+
+
       <div class="chunk">
         <div class="subtitle">
           Climate Change (1/29)
@@ -164,8 +214,8 @@
           I Ordered New Covers (1/28)
         </div>
         <div class="paragraph">
-          A week ago, the cover of my comforter started to tear. I must have nicked it. I let it be. The tear grew steadily and widened every time a part of me caught it. First a toe, then a whole leg. 
-            <br><br>
+          A week ago, the cover of my comforter started to tear. I must have nicked it. I let it be. The tear grew steadily and widened every time a part of me caught it. First a toe, then a whole leg.
+          <br><br>
           A couple days ago, the tear became insurmountable. It was going to swallow me whole.
           <br><br>
           I ordered new covers.
@@ -227,6 +277,8 @@
         <div>
           <a href="https://paulgraham.com/writes.html" target="_blank"> Paul Graham's Write and Write-Not's </a>
         </div>
+
+
 
 
 
